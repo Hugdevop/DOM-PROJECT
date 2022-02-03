@@ -1,0 +1,86 @@
+
+<html>
+<head>
+    <html lang ="fr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <script type="text/javascript" src="server.js"></script>
+
+        <h1>
+          Bienvenue sur mon site de vente en ligne
+        </h1>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#panier">Panier</a></li> 
+                <li><a href="#numeros">+233444444444</a></li>
+                
+            </ul> 
+        </nav>
+</head>
+<Body>
+
+
+    <div id="store">
+      <h1 Computer1="PCLENOVO">ORDINATEUR LENOVO</h1>
+        <section data-ordi="PCLENOVO" class="row">
+          <article class="col s12 m6 l4" data-price ="250000">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://th.bing.com/th/id/OIP.JNWXoaacLKBncYl-kaqQqwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" title="Flickr picture by Nic Taylor Photography">
+                <span class="card-title"> 700 000 F CFA
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Notebook Lenovo V15 IIL,i5, 8GB, 256SSD, 15.6″ Windows10 ...</h3>
+                
+              </div>
+              <div class="card-action row">
+                <button onclick="deleteProduct('PCLENOVO');">-</button>
+                <button onclick="addProduct('PCLENOVO');">+</button>
+                <button class="like-btn">&#10084;&#65039;</button>
+             
+              </div>
+            </div>
+          </article> 
+        </section>
+
+       
+        <section computer2="PCHP" class="row">
+          <h1 Computer1="PChP">ORDINATEUR HP</h1>
+            <article class="col s12 m6 l4" data-price="10">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://th.bing.com/th/id/OIP.JNWXoaacLKBncYl-kaqQqwHaHa?w=165&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"title="Flickr picture by sea turtle">
+                  <span class="card-title"> 900 000 F CFA </span>
+                </div>
+                <div class="card-content">
+                  <h3>HP 15.6-inch i5-1135G7/8GB/256GB SSD Laptop</h3>
+                   
+                </div>
+                <div class="card-action row">
+                  <button onclick="deleteProduct('PCHP');">-</button>
+                  <button onclick="addProduct('PCHP');">+</button>
+                  <button class="like-btn">&#10084;&#65039;</button>
+              </div>
+                </div>
+              </div>
+            </article>
+          </section>
+
+        
+      
+      </div>
+      <div id="cart" class="row">
+        <ul>
+        </ul>
+        <a id="pay" class="waves-effect waves-light orange white-text" >Payer <span class="total">0.00</span>F CFA</a>
+      </div>
+      }
+    
+     
+
+
+</Body>
+
+</html>
